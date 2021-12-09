@@ -57,70 +57,64 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-   <div class = "container">
-     <div class="row">
-      <!-- first column is for the summary-->
-      <div class = "col-md-8">
-        <article class= "description-content">
-          
-            <h1 class= "description-header"> Summary: Latitude vs. X </h1>
-            <hr class="description-hr">
-            <!-- Add image and the content and then format-->
-            <a href="image/Fig1.png">
-            <img src="images/Fig1.png" title="City latitude Vs.Max Temp Plot"
-            id="description-image">
-            </a>
-            <p> The purpose of this project was to analyze how weather changes 
-              as you get closer to the equator. To acomplish this analysis,
-              we first pulled dattta from the openweatherMap acomplish
-              to assemble the dataset on over 500 cities. </p>
-             
-              <p> After assembling the dataset, we used Matplotlib to plot various 
-                aspects of the weather vs. latitude. Factors we looked at included:
-                temperature, cloudiness, wind speed and humidity. This site provides the source data and 
-                visualizations created as part of the analysis,as well as explanations and descriptions of any trends and 
-                correlations witnessed. 
-              </p>
-
-         
-        </article>    
-      </div>
-
-      <!-- second column is for visualization thumbnails -->
-      <div class="col-md-4">
-      <!-- Add the images thumbnails   -->
-      <section id="imageNav-area">
-        <div class= "imageNav-content">
-          <h2 class="imageNav-header"> Visualizations</h2>
-          <hr>
-          <div id="images">
-            <a href="temp.html">
-              <img src="images/Fig1.png" class="imageNav-photo" title="Latitude Vs. Max Temperature">
-
-            </a>
-            <a href="humidity.html">
-              <img src="images/Fig2.png" class="imageNav-photo" title="Latitude Vs. Max Humidity">
-
-            </a>
-
-            <a href="cloudiness.html">
-              <img src="images/Fig3.png" class="imageNav-photo" title="Latitude Vs. Max Cloudiness">
-
-            </a>
-
-            <a href="wind.html">
-              <img src="images/Fig4.png" class="imageNav-photo" title="Latitude Vs. Max Wind Speed">
-
-            </a>
-
-          </div>
+    <div class="container">
+      <div class="row">
+        <!-- temperature analysis content-->
+        <div class="col-md-8">
+          <article class= "description-content">
+            <h1 class= "description-header"> Wind Speed </h1>
+                 <hr class="description-hr">
+                 <!-- Add image and the content and then format-->
+                 <a href="image/Fig4.png">
+                 <img src="images/Fig4.png" title="City latitude Vs. Windspeed"
+                 class="img-responsive">
+                 </a>
+                 <p> This scatter plot shows that it is difficult to determine a relationship between latitude and Wind speed. 
+                     There are many data points in the northern hemisphere that are reporting wind speeds of 0-15 mph.
+                      </p>
+              
+             </article>    
+  
         </div>
-      </section>
+  
+  
+        <!-- second column is for the visualization thumbnails-->
+        <div class="col-md-4">
+           <section id="imageNav-area">
+           <div class= "imageNav-content">
+            <h2 class="imageNav-header"> Visualizations</h2>
+            <hr>
+            <div id="images">
+              <a href="temp.html">
+                <img src="images/Fig1.png" class="imageNav-photo " title="Latitude Vs. Max Temperature">
+  
+              </a>
+              <a href="humidity.html">
+                <img src="images/Fig2.png" class="imageNav-photo" title="Latitude Vs. Max Humidity">
+  
+              </a>
+  
+              <a href="cloudiness.html">
+                <img src="images/Fig3.png" class="imageNav-photo" title="Latitude Vs. Max Cloudiness">
+  
+              </a>
+  
+              <a href="wind.html">
+                <img src="images/Fig4.png" class="imageNav-photo active" title="Latitude Vs. Max Wind Speed">
+  
+              </a>
+  
+            </div>
+          </div>
+        </section>
+  
+        </div>
+  
+      </div>
+  
       </div>
 
-       </div> 
-     </div>
-
+    
     <!-- End of container -->
 
     <!-- Start of footer -->
