@@ -1,0 +1,44 @@
+h1{
+    font-size: 80px;
+}
+.blue{
+    color:blue
+}
+
+#purple { 
+    color: purple;
+}
+
+.pink { 
+    color:pink;
+}
+
+.Yellow { 
+    color: yellow;
+}
+
+.Green { 
+    color: green;
+}
+.Red { 
+    color: red;
+}
+.alignLeft  
+{ text-align: left;}
+
+.alignCenter
+{
+    text-align: center;
+}
+.alignRight
+{
+    text-align: right;
+}
+
+.White { 
+    color: white;
+}
+
+.blackBackground{
+    background-color: black;
+}
